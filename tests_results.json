@@ -1,0 +1,25 @@
+{"body":"### :x: Test Summary :x:\n\n**STORAGE VARIANT TESTED:** inmemory\n**TOTAL:** 123\n**PASS:** 123\n**FAIL:** 0\n**SKIP:** 0\n\n**STORAGE VARIANT TESTED:** asyncmem\n**TOTAL:** 123\n**PASS:** 98\n**FAIL:** 25\n**SKIP:** 0\n### :heavy_exclamation_mark: Test Failures :heavy_exclamation_mark:\n- createAndValidateArtifactRule (cached_client) [2] in io.apicurio.tests.smokeTests.apicurio.RulesResourceIT
+\n- createAndValidateGlobalRules (plain_client) [1] in io.apicurio.tests.smokeTests.apicurio.RulesResourceIT
+\n- createAndValidateGlobalRules (cached_client) [2] in io.apicurio.tests.smokeTests.apicurio.RulesResourceIT
+\n- testRulesDeletedWithArtifact (cached_client) [2] in io.apicurio.tests.smokeTests.apicurio.RulesResourceIT
+\n- testOpenApi30 (cached_client) [2] in io.apicurio.tests.smokeTests.apicurio.AllArtifactTypesIT
+\n- testAvro (cached_client) [2] in io.apicurio.tests.smokeTests.apicurio.AllArtifactTypesIT
+\n- testJsonSchema (cached_client) [2] in io.apicurio.tests.smokeTests.apicurio.AllArtifactTypesIT
+\n- testProtobuf (cached_client) [2] in io.apicurio.tests.smokeTests.apicurio.AllArtifactTypesIT
+\n- testGraphQL (cached_client) [2] in io.apicurio.tests.smokeTests.apicurio.AllArtifactTypesIT
+\n- testAsyncApi (cached_client) [2] in io.apicurio.tests.smokeTests.apicurio.AllArtifactTypesIT
+\n- testKafkaConnect (cached_client) [2] in io.apicurio.tests.smokeTests.apicurio.AllArtifactTypesIT
+\n- getAndUpdateMetadataOfArtifactSpecificVersion (cached_client) [2] in io.apicurio.tests.smokeTests.apicurio.MetadataIT
+\n- getAndUpdateMetadataOfArtifact (cached_client) [2] in io.apicurio.tests.smokeTests.apicurio.MetadataIT
+\n- testDisableEnableArtifactVersion (cached_client) [2] in io.apicurio.tests.smokeTests.apicurio.ArtifactsIT
+\n- createArtifactSpecificVersion (cached_client) [2] in io.apicurio.tests.smokeTests.apicurio.ArtifactsIT
+\n- createAndDeleteMultipleArtifacts (cached_client) [2] in io.apicurio.tests.smokeTests.apicurio.ArtifactsIT
+\n- createAndUpdateArtifact (plain_client) [1] in io.apicurio.tests.smokeTests.apicurio.ArtifactsIT
+\n- createAndUpdateArtifact (cached_client) [2] in io.apicurio.tests.smokeTests.apicurio.ArtifactsIT
+\n- createNonAvroArtifact (cached_client) [2] in io.apicurio.tests.smokeTests.apicurio.ArtifactsIT
+\n- testDeprecateArtifactVersion (cached_client) [2] in io.apicurio.tests.smokeTests.apicurio.ArtifactsIT
+\n- concurrentLoadTest (plain_client) [1] in io.apicurio.tests.smokeTests.apicurio.LoadIT
+\n- concurrentLoadTest (cached_client) [2] in io.apicurio.tests.smokeTests.apicurio.LoadIT
+\n- testCreateViaApi (plain_client) [1] in io.apicurio.tests.ui.UploadArtifactsIT
+\n- testDeleteArtifacts (plain_client) [1] in io.apicurio.tests.ui.DeleteArtifactIT
+\n- testDeleteArtifacts (cached_client) [2] in io.apicurio.tests.ui.DeleteArtifactIT\n\n**STORAGE VARIANT TESTED:** infinispan\n**TOTAL:** 0\n**PASS:** 0\n**FAIL:** 0\n**SKIP:** 0\n\n**STORAGE VARIANT TESTED:** jpa\n**TOTAL:** 0\n**PASS:** 0\n**FAIL:** 0\n**SKIP:** 0\n\n**STORAGE VARIANT TESTED:** kafka\n**TOTAL:** 0\n**PASS:** 0\n**FAIL:** 0\n**SKIP:** 0\n\n**STORAGE VARIANT TESTED:** streams\n**TOTAL:** 0\n**PASS:** 0\n**FAIL:** 0\n**SKIP:** 0\n"}
