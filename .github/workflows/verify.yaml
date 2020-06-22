@@ -10,6 +10,10 @@ jobs:
     name: Integration Tests
     runs-on: ubuntu-latest
     steps:
+      - name: Show Actor
+        run: echo ${{github.actor}}
+      - name: Checkout Code
+        uses: actions/checkout@v2
       - name: Comment tests results
         if: always()
         run: |
